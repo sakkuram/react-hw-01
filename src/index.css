@@ -13,3 +13,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app-container {
+  display: block;
+  height: 100%;
+}
+
+/* Profile.css */
+.profile-card {
+  border: 1px solid #ddd;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  width: 300px;
+  margin: 20px auto;
+}
+
+.profile-description {
+  text-align: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.tag {
+  color: #888;
+}
+
+.location {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.profile-stats {
+  list-style: none;
+  padding: 0;
+}
+
+.profile-stats li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.quantity {
+  color: #007bff;
+}
+/* Profile.css */
+/* Friend List */
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.status {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+/* Friend List */
+/* TransactionHistory.css */
+.transaction-history {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transaction-history th,
+.transaction-history td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+.transaction-history th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.transaction-history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/* TransactionHistory.css */
